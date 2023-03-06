@@ -41,8 +41,8 @@ def read_file(filepath, root=PROJECT_ROOT):
 
 LONG_DESCRIPTION = read_file("README.md")
 SHORT_DESCRIPTION = "Two Source Energy Balance (TSEB) Models to estimate sensible and latent heat flux (evapotranspiration) from radiometric surface temperature data"
-REQS = ['numpy>=1.10', 'gdal', 'bokeh', 'pandas', 'netCDF4',
-        "pypro4sail"]
+REQS = ['numpy>=1.10', 'gdal', 'bokeh', 'pandas', 'netCDF4']
+#        "pypro4sail"]
 
 
 setup(
